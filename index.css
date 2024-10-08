@@ -1,10 +1,13 @@
 body {
   background-color: #D5E1EF;
   font-family: "Outfit", sans-serif;
+  height: 100vh;
+  margin: 0;
 }
 
-header {
+header, footer {
   text-align: center;
+  padding-top: 30px;
 }
 
 .card {
@@ -48,5 +51,5 @@ header {
   display: flex;
   align-items: center;        /* Centra verticalmente los elementos */
   justify-content: center;    /* Centra horizontalmente los elementos */
-  height: 100vh;
+  height: 70%;
 }
