@@ -3,6 +3,10 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+header {
+  text-align: center;
+}
+
 .card {
   background-color: white;
   width: 300px;
