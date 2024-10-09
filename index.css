@@ -1,13 +1,17 @@
 body {
   background-color: #D5E1EF;
   font-family: "Outfit", sans-serif;
-  height: 100vh;
+  height: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10vh;
 }
 
 header, footer {
   text-align: center;
-  padding-top: 30px;
+  margin-top: 10vh;
 }
 
 .card {
@@ -15,13 +19,15 @@ header, footer {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   border-radius: 10px;
   position: relative;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  height: auto;
 }
 
 .card-img > * {
